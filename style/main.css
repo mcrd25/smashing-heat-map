@@ -1,0 +1,18 @@
+ body {
+     margin:
+ }
+#main-nav {
+    display: flex;
+    background-color: lightgrey;
+    width: 100vw;
+    height: 10.9375em;
+}
+.nav-item {
+    background-color: darkgrey;
+    width: 14.2857%;
+    height: 8.3125em;
+}
+
+#logo {
+    background-color: rgb(128, 128, 128);
+}
