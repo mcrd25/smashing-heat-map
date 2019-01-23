@@ -65,7 +65,7 @@ body {
 }
 
 .latest-article {
-    padding-top: 15%;
+    padding-top: 20%;
     width: 50%;
     background: rgb(228, 228, 228);
     height: 800px;
@@ -79,7 +79,26 @@ body {
 }
 
 .author {
-    height: 110px;
-    width: 45%;
+    height: 106px;
+    width: 75%;
+    background: lightgray;
+}
+
+.title {
+    height: 115px;
+    width: 65%;
     background: rgb(116, 116, 116);
+}
+
+.hashtag {
+    height: 120px;
+    width: 45%;
+    background-color: lightgray;
+}
+
+.arrow {
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    margin-top: 12.5%; 
 }
