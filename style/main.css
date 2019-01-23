@@ -80,14 +80,16 @@ body {
 
 .author {
     height: 106px;
-    width: 75%;
+    width: 60%;
     background: lightgray;
+    margin-bottom: 1em;
 }
 
 .title {
     height: 115px;
-    width: 65%;
+    width: 75%;
     background: rgb(116, 116, 116);
+    margin-bottom: 1em;
 }
 
 .hashtag {
