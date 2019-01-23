@@ -33,3 +33,30 @@ body {
 #logo {
     background-color: rgb(128, 128, 128);
 }
+
+#latest-articles {
+    position: relative;
+}
+
+#cta-wrapper {
+    position: absolute;
+    top: 2.9em;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: black;
+    color: white;
+    padding: 0.25em;
+}
+
+#color-change {
+    position: absolute;
+    top: 6.5em;
+    right: 5%;
+    height: 64px;
+    width: 240px;
+    background-color: lightgray;
+}
