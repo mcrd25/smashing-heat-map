@@ -36,6 +36,9 @@ body {
 
 #latest-articles {
     position: relative;
+    display: flex;
+    align-items: center;
+    height: 800px;
 }
 
 #cta-wrapper {
@@ -59,4 +62,24 @@ body {
     height: 64px;
     width: 240px;
     background-color: lightgray;
+}
+
+.latest-article {
+    padding-top: 15%;
+    width: 50%;
+    background: rgb(228, 228, 228);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.right {
+    background: #fff;
+}
+
+.author {
+    height: 110px;
+    width: 45%;
+    background: rgb(116, 116, 116);
 }
