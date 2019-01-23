@@ -33,3 +33,74 @@ body {
 #logo {
     background-color: rgb(128, 128, 128);
 }
+
+#latest-articles {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 800px;
+}
+
+#cta-wrapper {
+    position: absolute;
+    top: 2.9em;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: black;
+    color: white;
+    padding: 0.25em;
+}
+
+#color-change {
+    position: absolute;
+    top: 6.5em;
+    right: 5%;
+    height: 64px;
+    width: 240px;
+    background-color: lightgray;
+}
+
+.latest-article {
+    padding-top: 20%;
+    width: 50%;
+    background: rgb(228, 228, 228);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.right {
+    background: #fff;
+}
+
+.author {
+    height: 106px;
+    width: 60%;
+    background: lightgray;
+    margin-bottom: 1em;
+}
+
+.title {
+    height: 115px;
+    width: 75%;
+    background: rgb(116, 116, 116);
+    margin-bottom: 1em;
+}
+
+.hashtag {
+    height: 120px;
+    width: 45%;
+    background-color: lightgray;
+}
+
+.arrow {
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    margin-top: 12.5%; 
+}
