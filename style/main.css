@@ -33,10 +33,16 @@ body {
     width: 100vw;
     height: 10.9375em;
 }
+
 .nav-item {
     background-color: darkgrey;
     width: 12%;
     height: 8.3125em;
+    text-align: center;
+}
+
+.nav-title {
+    margin: 45% 0;
 }
 
 #logo {
