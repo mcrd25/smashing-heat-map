@@ -128,6 +128,7 @@ body {
 .article {
     background-color: rgb(245, 245, 245);
     align-items: center;
+    position: relative;
 }
 
 .article * {
@@ -154,9 +155,16 @@ body {
     width: 75%;
 }
 
+.article .arrow {
+    position: absolute;
+    left: 12.5%;
+    bottom: 0;
+
+}
+
+
 .ad {
     width: 80%;
     height: 50%;
     background-color: lightgray; 
-    margin-top: 6em;
 }
