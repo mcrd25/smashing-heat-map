@@ -258,5 +258,47 @@ body {
     background-color: darkgrey;
 }
 
+#shared-articles {
+    width: 100vw;
+    flex-wrap: wrap;
+}
 
+.shared-article {
+    height: 261px;
+    width:50%;
+    margin-bottom: 5em;
+}
+.shared-avatar {
+    width: 25%;
+}
+
+.avatar {
+    width:65%;
+    height: 25%;
+    background-color: grey;
+    margin-left: 25%;
+}
+
+.content {
+    width: 75%;
+    padding-left: 2%;
+    justify-content: space-between;
+}
+.content .name {
+    width: 50%;
+    background-color: darkgrey;
+    height: 12%;
+}
+
+.content .shared-title {
+    width: 60%;
+    background-color: dimgrey;
+    height: 20%;
+}
+
+.content .summary {
+    width: 90%;
+    background-color: lightgrey;
+    height: 50%;
+}
 
