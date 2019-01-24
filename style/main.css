@@ -302,3 +302,40 @@ body {
     height: 50%;
 }
 
+#footer {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+#footer-header {
+    margin-top: 2em;
+    height: 10%;
+    width: 30%;
+    background-color: lightgray;
+
+}
+
+#footer-topics {
+    height: 40%;
+    width: 80%;
+    margin-top: 1em;
+    background-color: darkgrey;
+}
+
+#founders {
+    height: 25%;
+    width: 35%;
+    background-color: lightgray;
+    margin-top: 3em;
+}
+
+#footer-links {
+    height: 20%;
+    width: 40%;
+    background-color: lightgray;
+    margin: 1em 0 2em 0;
+}
