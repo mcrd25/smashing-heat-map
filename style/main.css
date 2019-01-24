@@ -229,3 +229,34 @@ body {
     background-color: lightgrey;
 }
 
+#person-of-the-week {
+    height: 350px;
+}
+
+.picture {
+    height: 60%;
+    width: 20%;
+    background-color: dimgrey;
+    margin-left: 10%;
+    margin-top: 4.5em;
+}
+
+.about {
+    height: 70%;
+    width: 65%;
+    margin-left: 1.5em;
+    margin-top: 2.4em;
+}
+
+.person-title {
+    height: 15%;
+    width: 30%;
+    background-color: lightgray;
+}
+.person-description {
+    height: 80%;
+    background-color: darkgrey;
+}
+
+
+
