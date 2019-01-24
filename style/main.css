@@ -116,7 +116,7 @@ body {
     width: 100vw;
 }
 
-.articles .article{
+.article{
     margin: 0;
     padding: 0;
     width: 25%;
@@ -162,9 +162,19 @@ body {
 
 }
 
-
 .ad {
     width: 80%;
     height: 50%;
     background-color: lightgray; 
+}
+
+#members-section {
+    width: 100vw;
+
+}
+
+.members-info {
+    height: 581px;
+    width: 50%;
+    background: grey;
 }
