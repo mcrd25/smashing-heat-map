@@ -20,6 +20,10 @@ body {
     display: flex
 }
 
+.column {
+    flex-direction: column;
+}
+
 
 #main-nav {
     align-items: center;
@@ -118,4 +122,40 @@ body {
     width: 25%;
     height: 581px;
     border: 1px solid black;
+}
+
+.article {
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    justify-content: center;
+}
+
+.article * {
+    margin-bottom: 1em;
+}
+
+.article-title {
+    background-color: grey;
+    height: 25%;
+    width: 75%;
+    
+}
+
+.article-author {
+    background-color: lightgrey;
+    height: 12%;
+    width: 75%;
+}
+
+.article-content {
+    background-color: darkgrey;
+    height: 30%;
+    width: 75%;
+}
+
+.ad {
+    width: 80%;
+    height: 50%;
+    background-color: lightgray; 
+    margin-top: 6em;
 }
