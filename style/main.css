@@ -122,17 +122,18 @@ body {
     width: 25%;
     height: 581px;
     border: 1px solid black;
+    padding-top: 5%;
 }
 
 .article {
     background-color: rgb(245, 245, 245);
     align-items: center;
-    justify-content: center;
 }
 
 .article * {
     margin-bottom: 1em;
 }
+
 
 .article-title {
     background-color: grey;
