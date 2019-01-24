@@ -2,7 +2,7 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /* font-family: ; */
+    font-family: 'Sarabun', sans-serif;
 }
 
 *,
@@ -33,10 +33,18 @@ body {
     width: 100vw;
     height: 10.9375em;
 }
+
 .nav-item {
     background-color: darkgrey;
     width: 12%;
     height: 8.3125em;
+    text-align: center;
+}
+
+.nav-title {
+    margin: 30% 0;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 #logo {
