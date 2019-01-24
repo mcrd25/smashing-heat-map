@@ -16,8 +16,12 @@ body {
     padding: 0;
 }
 
+.flex {
+    display: flex
+}
+
+
 #main-nav {
-    display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: lightgrey;
@@ -36,7 +40,6 @@ body {
 
 #latest-articles {
     position: relative;
-    display: flex;
     align-items: center;
     height: 800px;
 }
@@ -103,4 +106,16 @@ body {
     height: 70px;
     width: 70px;
     margin-top: 12.5%; 
+}
+
+.articles {
+    width: 100vw;
+}
+
+.articles .article{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 581px;
+    border: 1px solid black;
 }
