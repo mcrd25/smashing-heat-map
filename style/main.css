@@ -116,16 +116,13 @@ body {
     width: 100vw;
 }
 
-.article{
+.article {
     margin: 0;
     padding: 0;
     width: 25%;
     height: 581px;
     border: 1px solid black;
     padding-top: 5%;
-}
-
-.article {
     background-color: rgb(245, 245, 245);
     align-items: center;
     position: relative;
@@ -177,4 +174,31 @@ body {
     height: 581px;
     width: 50%;
     background: grey;
+    align-items: center;
+    padding-top: 3em;
+}
+
+#members-img {
+    height: 30%;
+    width: 30%;
+    background: lightgray;
+}
+
+#members-title {
+    width: 40%;
+    height: 15%;
+    background-color: dimgrey;
+}
+
+.members-description {
+    width: 60%;
+    height: 20%;
+    background-color: darkgrey;
+}
+
+.call-to-action-button {
+    width: 30%;
+    height: 10%;
+    background-color: #222222;
+    margin-top: 1.5em;
 }
