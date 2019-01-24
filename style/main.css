@@ -16,8 +16,16 @@ body {
     padding: 0;
 }
 
+.flex {
+    display: flex
+}
+
+.column {
+    flex-direction: column;
+}
+
+
 #main-nav {
-    display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: lightgrey;
@@ -36,7 +44,6 @@ body {
 
 #latest-articles {
     position: relative;
-    display: flex;
     align-items: center;
     height: 800px;
 }
@@ -103,4 +110,61 @@ body {
     height: 70px;
     width: 70px;
     margin-top: 12.5%; 
+}
+
+.articles {
+    width: 100vw;
+}
+
+.articles .article{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 581px;
+    border: 1px solid black;
+    padding-top: 5%;
+}
+
+.article {
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    position: relative;
+}
+
+.article * {
+    margin-bottom: 1em;
+}
+
+
+.article-title {
+    background-color: grey;
+    height: 25%;
+    width: 75%;
+    
+}
+
+.article-author {
+    background-color: lightgrey;
+    height: 12%;
+    width: 75%;
+}
+
+.article-content {
+    background-color: darkgrey;
+    height: 30%;
+    width: 75%;
+}
+
+.article .arrow {
+    position: absolute;
+    left: 12.5%;
+    bottom: 0;
+
+}
+
+
+.ad {
+    width: 80%;
+    height: 50%;
+    background-color: lightgray; 
 }

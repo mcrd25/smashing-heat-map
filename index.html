@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <div id="main-nav">
+    <div id="main-nav" class="flex">
         <div id="logo" class="nav-item"></div>
         <div class="nav-item">
             <div class="nav-icon"></div>
@@ -38,7 +38,7 @@
         </div>
         <div id="search" class="nav-item"></div>
     </div>
-    <div id="latest-articles">
+    <div id="latest-articles" class="flex">
         <h1 id="cta-wrapper">
             <span class="call-to-action">Don't Miss These</span>
             <br>
@@ -58,23 +58,27 @@
             <div class="arrow"></div>
         </div>
     </div>
-    <div class="articles">
-        <div class="article">
+    <div class="articles flex">
+        <div class="article flex column">
+
             <div class="article-title"></div>
             <div class="article-author"></div>
             <div class="article-content"></div>
+            <div class="arrow"></div>
         </div>
-        <div class="article">
+        <div class="article flex column">
             <div class="article-title"></div>
             <div class="article-author"></div>
             <div class="article-content"></div>
+            <div class="arrow"></div>
         </div>
-        <div class="article">
+        <div class="article flex column">
             <div class="article-title"></div>
             <div class="article-author"></div>
             <div class="article-content"></div>
+            <div class="arrow"></div>
         </div>
-        <div class="article ad-wrapper">
+        <div class="article flex column">
             <div class="ad"></div>
         </div>
     </div>
