@@ -14,10 +14,11 @@ html {
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
 .flex {
-    display: flex
+    display: flex;
 }
 
 .column {
@@ -202,3 +203,29 @@ body {
     background-color: #222222;
     margin-top: 1.5em;
 }
+
+#upcoming-events {
+    height: 1000px;
+    background-color: darkgrey;
+    align-items: center;
+    padding-top: 6%;
+}
+
+#event-date {
+    height: 3%;
+    width: 30%;
+    background-color: lightgrey;
+}
+
+#event-header {
+    width: 60%;
+    height: 10%;
+    background-color: dimgray;
+}
+
+#event-description {
+    width: 50%;
+    height: 15%;
+    background-color: lightgrey;
+}
+
