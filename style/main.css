@@ -1,0 +1,390 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#main-nav {
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    width: 100vw;
+    height: 10.9375em;
+}
+
+.nav-item {
+    background-color: darkgrey;
+    width: 12%;
+    height: 8.3125em;
+    text-align: center;
+}
+
+.nav-title {
+    margin: 30% 0;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#logo {
+    background-color: rgb(128, 128, 128);
+}
+
+#latest-articles {
+    position: relative;
+    align-items: center;
+    height: 800px;
+}
+
+#cta-wrapper {
+    position: absolute;
+    top: 2.9em;
+    left: 35%;
+    right: 35%;
+    text-align: center;
+}
+
+.call-to-action {
+    background-color: black;
+    color: white;
+    padding: 0.25em;
+}
+
+#color-change {
+    position: absolute;
+    top: 6.5em;
+    right: 5%;
+    height: 64px;
+    width: 240px;
+    background-color: lightgray;
+}
+
+.latest-article {
+    padding-top: 20%;
+    width: 50%;
+    background: rgb(228, 228, 228);
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.right {
+    background: #fff;
+}
+
+.author {
+    height: 106px;
+    width: 60%;
+    background: lightgray;
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.title {
+    height: 115px;
+    width: 75%;
+    background: rgb(116, 116, 116);
+    margin-bottom: 1em;
+    font-weight: 700;
+    font-size: 3em;
+    color: black;
+}
+
+.hashtag {
+    height: 120px;
+    width: 45%;
+    background-color: lightgray;
+}
+
+.arrow {
+    background-color: grey;
+    height: 70px;
+    width: 70px;
+    margin-top: 12.5%; 
+}
+
+.articles {
+    width: 100vw;
+}
+
+.article {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 581px;
+    border: 1px solid black;
+    padding-top: 5%;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    position: relative;
+}
+
+.article * {
+    margin-bottom: 1em;
+}
+
+
+.article-title {
+    background-color: grey;
+    height: 25%;
+    width: 75%;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.article-author {
+    background-color: lightgrey;
+    height: 12%;
+    width: 75%;
+    font-weight: 500;
+}
+
+.article-content {
+    background-color: darkgrey;
+    height: 30%;
+    width: 75%;
+    font-size: 1.2em;
+}
+
+.article .arrow {
+    position: absolute;
+    left: 12.5%;
+    bottom: 0;
+
+}
+
+.ad {
+    width: 80%;
+    height: 50%;
+    background-color: lightgray; 
+    text-align: center;
+}
+
+#members-section {
+    width: 100vw;
+
+}
+
+.members-info {
+    height: 581px;
+    width: 50%;
+    background: grey;
+    align-items: center;
+    padding-top: 3em;
+}
+
+#members-img {
+    height: 30%;
+    width: 30%;
+    background: lightgray;
+}
+
+#members-title {
+    width: 40%;
+    height: 15%;
+    background-color: dimgrey;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.members-description {
+    width: 60%;
+    height: 20%;
+    background-color: darkgrey;
+    font-size: 1.2em;
+}
+
+.call-to-action-button {
+    width: 30%;
+    height: 10%;
+    background-color: rgb(90, 90, 90);
+    margin-top: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#upcoming-events {
+    height: 1000px;
+    background-color: darkgrey;
+    align-items: center;
+    padding-top: 6%;
+}
+
+#event-date {
+    height: 3%;
+    width: 30%;
+    background-color: lightgrey;
+}
+
+#event-header {
+    width: 60%;
+    height: 10%;
+    background-color: dimgray;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+#event-description {
+    width: 50%;
+    height: 15%;
+    background-color: lightgrey;
+    font-size: 1.5em;
+}
+
+#upcoming-events .call-to-action-button {
+    height: 6%;
+}
+
+#person-of-the-week {
+    height: 350px;
+}
+
+.picture {
+    height: 60%;
+    width: 20%;
+    background-color: dimgrey;
+    margin-left: 10%;
+    margin-top: 4.5em;
+}
+
+.about {
+    height: 70%;
+    width: 65%;
+    margin-left: 1.5em;
+    margin-top: 2.4em;
+}
+
+.person-title {
+    height: 15%;
+    width: 30%;
+    background-color: lightgray;
+}
+.person-description {
+    height: 80%;
+    background-color: darkgrey;
+    font-size: 1.5em;
+}
+
+#shared-articles {
+    width: 100vw;
+    flex-wrap: wrap;
+    background: rgb(250, 250, 250);
+}
+
+.shared-article {
+    height: 261px;
+    width:50%;
+    margin-bottom: 5em;
+}
+.shared-avatar {
+    width: 25%;
+}
+
+.avatar {
+    width:65%;
+    height: 25%;
+    background-color: grey;
+    margin-left: 25%;
+}
+
+.content {
+    width: 75%;
+    padding-left: 2%;
+    justify-content: space-between;
+}
+.content .name {
+    width: 50%;
+    background-color: darkgrey;
+    height: 12%;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.content .shared-title {
+    width: 60%;
+    background-color: dimgrey;
+    height: 20%;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.content .summary {
+    width: 90%;
+    background-color: lightgrey;
+    height: 50%;
+    font-size: 1.2em;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 700px;
+    align-items: center;
+    background-color: #e8e8e8;
+}
+
+#footer-header {
+    margin-top: 2em;
+    height: 10%;
+    width: 30%;
+    background-color: lightgray;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+#footer-topics {
+    height: 40%;
+    width: 80%;
+    margin-top: 1em;
+    background-color: darkgrey;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-top: 5%;
+}
+
+#founders {
+    height: 25%;
+    width: 35%;
+    background-color: lightgray;
+    margin-top: 3em;
+    font-size: 0.9em;
+    padding-top: 5%;
+}
+
+#footer-links {
+    height: 20%;
+    width: 40%;
+    background-color: lightgray;
+    margin: 1em 0 2em 0;
+    font-size: 0.9em;
+    padding-top: 3%;
+}
